@@ -1,0 +1,29 @@
+interface Animal
+{
+	public static final int x = 100;
+	public void doEat();
+}
+
+class Dog implements Animal,xyz
+{
+
+	// line no 2	
+	Dog()
+	{
+		System.out.println("Dog default constructor");
+	}
+
+	public void doEat()
+	{
+		// 10000 line 
+	}
+}
+
+
+public class SuperDemo {
+	public static void main(String[] args) {
+
+		Dog d = new Dog();
+		Animal.x;
+	}
+}
